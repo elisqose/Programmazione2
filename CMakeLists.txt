@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(EsameProg2Esercitazione Esonero/Stringhe/ES1.c
         Esonero/Stringhe/ES2.c
-        Esonero/Stringhe/ES3.c)
+        Esonero/Stringhe/ES3.c
+        Esonero/Liste/ES11.c)
