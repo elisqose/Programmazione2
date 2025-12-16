@@ -38,7 +38,6 @@ char* sottrai_stringhe(const char* s1, const char* s2) {
     }
 
     int count = 0;
-
     for (int i = 0; i < len1; i++) {
         if (!char_presente(s2, s1[i])) {
             count++;

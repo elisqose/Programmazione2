@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Dati due array, estituisce un nuovo array con gli elementi presenti solo in 'a' o solo in 'b'
+// Dati due array, restituisce un nuovo array con gli elementi presenti solo in 'a' o solo in 'b'
 // Aggiorna new_n con la dimensione del nuovo array.
 
 int presente (const int* arr, int n, int val) {

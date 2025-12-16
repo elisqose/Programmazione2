@@ -12,6 +12,7 @@ char* comprimi_stringa(const char* s) {
     }
 
     int len = strlen(s);
+
     if (len == 0) {
         char* empty = (char*) malloc(sizeof(1));
         if (!empty) {

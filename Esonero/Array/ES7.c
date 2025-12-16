@@ -30,10 +30,8 @@ int* trova_picchi(const int* a, int n, int* new_n) {
             }
         }
 
-        else if (a[i+1] < a[i]) {
-            if (a[i-1] < a[i]) {
+        else if (a[i+1] < a[i] && a[i-1] < a[i]) {
                 count++;
-            }
         }
     }
 
@@ -69,10 +67,8 @@ int* trova_picchi(const int* a, int n, int* new_n) {
             }
         }
 
-        else if (a[i+1] < a[i]) {
-            if (a[i-1] < a[i]) {
+        else if (a[i+1] < a[i] && a[i-1] < a[i]) {
                 isPeak = 1;
-            }
         }
 
         if (isPeak == 1) {

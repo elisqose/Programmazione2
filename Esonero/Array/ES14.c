@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Dato un array e due indici start e end, restituire un nuovo array contenente solo gli elementi
+//Dato un array e due indici start ed end, restituire un nuovo array contenente solo gli elementi
 //in quell'intervallo.
 
 int* slice_array(const int* a, int n, int start, int end, int* new_n) {

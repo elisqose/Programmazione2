@@ -47,7 +47,6 @@ IntList media_mobile(IntList list) {
     while (curr != NULL) {
 
         IntList node = malloc(sizeof(IntNode));
-
         if (!node) {
             return NULL;
         }
