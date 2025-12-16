@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Dati due array di interi a e b, entrambi di dimensione n. La funzione deve restituire un puntatore
+// a un nuovo array di dimensione 2*n che contenga gli elementi di entrambi gli array combinati
+// secondo la logica: Gli elementi di a devono essere inseriti nell'ordine originale (dal primo all'ultimo).
+// Gli elementi di b devono essere inseriti in ordine inverso (dall'ultimo al primo).
+
 int *combine (int* a, int* b, int n) {
     if(a == NULL || b == NULL || n <= 0) {
         return NULL;
